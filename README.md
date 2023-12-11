@@ -39,6 +39,7 @@ This table compares different devices in terms of various attributes:
 |------------------------|--------------------------|-------------------------|-----------------------|
 | Power Consumption (30 Day's)      | 1 unit                   | 3.7 units               | 93 units              |
 | Network Connectivity   | wifi/Ethernet/Celular    | wifi/Ethernet           | wifi/Ethernet         |
+| Range   |Long    | 100 m           |  50 m         |
 | Industrial COM Port    | Available                | No                      | No                    |
 | Customizable           | Yes                      | No                      | No                    |
 | Cost                   | 5,000 BDT                  | 15,000   BDT              | 45,000      BDT         |
