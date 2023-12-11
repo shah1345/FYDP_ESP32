@@ -37,7 +37,7 @@ This table compares different devices in terms of various attributes:
 
 | Attribute              | TinyPi                   | Raspberry Pi 4          | Computer              |
 |------------------------|--------------------------|-------------------------|-----------------------|
-| Power Consumption      | 1 unit                   | 3.7 units               | 93 units              |
+| Power Consumption (30 Day's)      | 1 unit                   | 3.7 units               | 93 units              |
 | Network Connectivity   | wifi/Ethernet/Celular    | wifi/Ethernet           | wifi/Ethernet         |
 | Industrial COM Port    | Available                | No                      | No                    |
 | Customizable           | Yes                      | No                      | No                    |
