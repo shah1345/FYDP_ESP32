@@ -28,3 +28,33 @@ Our custom ESP32 device addresses specific limitations present in standard ESP32
 | Targeted Use Case Efficiency  | Optimized           | Standard                       |
 
 This table demonstrates the notable advantages of the custom ESP32 device over market-available ESP32 development boards in terms of memory, power efficiency, battery life, network range, antenna support, industry compatibility, and optimized performance for targeted use cases.
+
+
+
+# Device Comparison
+
+This table compares different devices in terms of various attributes:
+
+| Attribute              | TinyPi                   | Raspberry Pi 4          | Computer              |
+|------------------------|--------------------------|-------------------------|-----------------------|
+| Power Consumption      | 1 unit                   | 3.7 units               | 93 units              |
+| Network Connectivity   | wifi/Ethernet/Celular    | wifi/Ethernet           | wifi/Ethernet         |
+| Industrial COM Port    | Available                | No                      | No                    |
+| Customizable           | Yes                      | No                      | No                    |
+| Cost                   | 5,000 BDT                  | 15,000   BDT              | 45,000      BDT         |
+
+## Description
+
+This comparison table outlines key features such as power consumption, network connectivity options, industrial COM port availability, customizability, and cost for TinyPi, Raspberry Pi 4, and a standard computer.
+
+## Additional Information
+
+Please note that the cost values are approximate and subject to change.
+
+Feel free to contribute or update the information to keep it accurate and relevant.
+
+
+
+
+
+
