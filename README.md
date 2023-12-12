@@ -61,20 +61,13 @@ Two devices were analyzed:
 
 ## Power Saving Calculation
 
-To calculate the power-saving percentage from Computer to TinyPi:
 
-\[ \text{Power Saving Percentage} = \frac{{\text{Initial Power Consumption} - \text{New Power Consumption}}}{{\text{Initial Power Consumption}}} \times 100 \]
-
-For these devices:
-
-\[ \text{Power Saving Percentage} = \frac{{93 - 1}}{{93}} \times 100 \]
-\[ \text{Power Saving Percentage} \approx 98.92\% \]
 
 Therefore, transitioning from Computer (93 units) to TinyPi (1 unit) results in approximately a 98.92% power-saving percentage. This signifies a significant improvement in power efficiency.
 
 ## Conclusion
 
-The newer TinyPi is approximately 99% more power-efficient compared to Computer, providing substantial power savings for the same task.
+The newer TinyPi is approximately 99% more power-efficient compared to the Computer, providing substantial power savings for the same task.
 
 
 
