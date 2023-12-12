@@ -1,6 +1,6 @@
 ## Custom ESP32 Device Features
 
-Our custom ESP32 device addresses specific limitations present in standard ESP32 development boards commonly available in the market. Here's a breakdown of its enhancements:
+Our custom ESP32 Computerddresses specific limitations present in standard ESP32 development boards commonly available in the market. Here's a breakdown of its enhancements:
 
 1. **Increased Memory:** The custom device boasts enhanced memory specifications with 128MB ROM and 64MB RAM, providing substantial improvements over standard development boards. This augmentation ensures smoother operations and accommodates resource-intensive applications, a crucial factor for our targeted use case.
 
@@ -43,6 +43,44 @@ This table compares different devices in terms of various attributes:
 | Industrial COM Port    | Available                | No                      | No                    |
 | Customizable           | Yes                      | No                      | No                    |
 | Cost                   | 5,000 BDT                  | 15,000   BDT              | 45,000      BDT         |
+
+
+
+
+
+
+# Power Efficiency Comparison
+
+This project focuses on comparing the power efficiency between two devices that require different units of power.
+
+## Overview
+
+Two devices were analyzed:
+- Computer: Consumes 93 units of power
+- TinyPi: Consumes 1 unit of power
+
+## Power Saving Calculation
+
+To calculate the power-saving percentage from Computer to TinyPi:
+
+\[ \text{Power Saving Percentage} = \frac{{\text{Initial Power Consumption} - \text{New Power Consumption}}}{{\text{Initial Power Consumption}}} \times 100 \]
+
+For these devices:
+
+\[ \text{Power Saving Percentage} = \frac{{93 - 1}}{{93}} \times 100 \]
+\[ \text{Power Saving Percentage} \approx 98.92\% \]
+
+Therefore, transitioning from Computer (93 units) to TinyPi (1 unit) results in approximately a 98.92% power-saving percentage. This signifies a significant improvement in power efficiency.
+
+## Conclusion
+
+The newer TinyPi is approximately 99% more power-efficient compared to Computer, providing substantial power savings for the same task.
+
+
+
+
+
+
 
 ## Description
 
