@@ -45,6 +45,23 @@ This table compares different devices in terms of various attributes:
 | Cost                   | 5,000 BDT                  | 15,000   BDT              | 45,000      BDT         |
 
 
+# Device Information
+
+- **Sketch Size:** 322,800 bytes (24.63% of Max Sketch Space)
+- **Max Sketch Space:** 1,310,720 bytes
+- **Sketch MD5:** 1073501068
+- **SDK Version:** v4.4.5
+- **Flash Chip Size:** 16,777,216 bytes
+- **Flash Chip Speed:** 80,000,000
+- **Flash Chip Mode:** 0
+- **Chip ID:** 2175530136 (64-bit)
+- **Chip Revision:** 1
+- **CPU Frequency:** 240 MHz
+- **Cycle Count:** 88,535,872
+- **Heap Size:** 333,040 bytes
+- **Free Heap:** 307,096 bytes
+- **Min Free Heap:** 298,648 bytes
+- **Max Allocatable Heap:** 110,580 bytes
 
 
 
