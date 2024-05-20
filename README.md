@@ -16,10 +16,11 @@ Our custom ESP32 Computerddresses specific limitations present in standard ESP32
 |-------------------------------|---------------------|--------------------------------|
 | ROM                           | 128 mb               | 16mb                          |
 | RAM                           | 64 mb                | 4 mb                          |
-| Power Consumption Efficiency  | Low                 | Standard                       |
-| Battery Life (200mAh)         | Approx. 3 Hours     | 20 min                         |
+| Power Consumption Efficiency  | Ultra-low power consumption | Standard               |
+| Battery Life (200mAh)         | Approx. 4 Hours     | 20 min                         |
 | Battery Life (1 Unit)         | Up to 31 Days       | Varies                         |
 | Wi-Fi Range                   | Up to 300m          | Typically 50-70m               |
+| Security Features             | AES-XTS-based flash encryption, RSA-based secure boot, digital signature and HMAC |Secure boot, Flash encryption|
 | Network (2G/ 3G / 4G)         | Yes                 | Not Avilable                   |
 | LoRa                          | Yes                 | Not Avilable                   |
 | Ethernet                      | Yes (RJ45)          | Typically Not Avilable         |
