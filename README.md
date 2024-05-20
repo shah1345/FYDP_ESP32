@@ -12,7 +12,7 @@ Our custom ESP32 Computerddresses specific limitations present in standard ESP32
 
 ## Comparison Table
 
-| Features                      | Custom ESP32 Device | Market ESP32 Development Board |
+| Features                      | Custom Development Board | Common Development Board  |
 |-------------------------------|---------------------|--------------------------------|
 | ROM                           | 128 mb               | 16mb                          |
 | RAM                           | 64 mb                | 4 mb                          |
@@ -27,6 +27,7 @@ Our custom ESP32 Computerddresses specific limitations present in standard ESP32
 | Antenna Options               | Internal & External | Typically Internal Only        |
 | Industry Compatibility        | RS485 Port Included | Not Commonly Available         |
 | Targeted Use Case Efficiency  | Optimized           | Standard                       |
+| Target Applications | IoT, Smart Home, Wearables, Industrial, AI and ML applications           | IoT, Smart Home, Wearables, Industrial                       |
 
 This table demonstrates the notable advantages of the custom ESP32 device over market-available ESP32 development boards in terms of memory, power efficiency, battery life, network range, antenna support, industry compatibility, and optimized performance for targeted use cases.
 
