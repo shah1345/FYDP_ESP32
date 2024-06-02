@@ -47,7 +47,8 @@ Federated Learning (FL) is a machine learning approach where models are trained 
 - **Alerts and Notifications**: Sends alerts and notifications in case of anomalies or significant events.
 
  
-
+##Implementing Homomorphic Encryption on ESP32
+While full-fledged homomorphic encryption might be too resource-intensive for ESP32, you can experiment with lightweight libraries and optimized algorithms. Below is an example using the Microsoft Simple Encrypted Arithmetic Library (SEAL), adapted for educational purposes. Note that SEAL is not directly compatible with ESP32, but this example demonstrates the basic concept and steps involved. For real-world applications, you might need custom optimizations or lighter libraries tailored for embedded systems.
 
 
 ## Comparison Table
