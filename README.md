@@ -10,6 +10,71 @@ Our custom ESP32 Computerddresses specific limitations present in standard ESP32
 
 4. **Industry 4.0 Compatibility:** To cater to industrial requirements, our device features an RS485 communication port. This addition facilitates seamless communication with machinery and equipment commonly found in Industry 4.0 setups, enhancing interoperability and integration capabilities.
 
+
+##Why We use Web Server in FL
+
+# Using a Web Server in Federated Learning
+
+Federated Learning (FL) is a machine learning approach where models are trained across multiple decentralized devices or servers holding local data samples, without exchanging their data. Using a web server in FL provides several benefits:
+
+## Centralized Coordination and Management
+
+- **Model Aggregation**: In FL, models are trained locally on devices, and the updates are sent to a central server. The web server aggregates these updates to form a global model.
+
+## Monitoring and Logging
+
+- **Device Activity Monitoring**: The web server monitors the status and activity of all participating devices.
+- **Performance Logging**: Logs performance metrics such as training time, accuracy, and loss.
+
+## Scalability and Load Management
+
+- **Handling Multiple Devices**: Efficiently manages communication between multiple devices, ensuring model updates are received and aggregated.
+- **Resource Allocation**: Distributes computational resources effectively.
+
+## Security and Privacy
+
+- **Secure Communication**: Facilitates secure communication channels between devices and the central server.
+- **Access Control**: Enforces access control policies to ensure only authorized devices participate.
+
+## Data Aggregation and Analysis
+
+- **Aggregating Logs and Metrics**: Collects logs and performance metrics from all devices for comprehensive analysis.
+- **Centralized Data Repository**: Acts as a central repository for logs and metrics.
+
+## User Interface and Visualization
+
+- **Dashboard for Visualization**: Hosts a dashboard that provides a graphical user interface for visualizing the status and performance of the FL process.
+- **Alerts and Notifications**: Sends alerts and notifications in case of anomalies or significant events.
+
+## Example Code
+
+Here is an example of how you might set up a simple web server for monitoring federated learning processes using Python and Flask:
+
+```python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Store logs in a simple dictionary
+logs = {}
+
+@app.route('/log', methods=['POST'])
+def log_activity():
+    data = request.get_json()
+    device_id = data['device_id']
+    logs[device_id] = data
+    return jsonify({'status': 'success'})
+
+@app.route('/logs', methods=['GET'])
+def get_logs():
+    return jsonify(logs)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
+
+
+
+
 ## Comparison Table
 
 | Features                      | Custom Development Board | Common Development Board  |
