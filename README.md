@@ -11,7 +11,7 @@ Our custom ESP32 Computerddresses specific limitations present in standard ESP32
 4. **Industry 4.0 Compatibility:** To cater to industrial requirements, our device features an RS485 communication port. This addition facilitates seamless communication with machinery and equipment commonly found in Industry 4.0 setups, enhancing interoperability and integration capabilities.
 
 
-##Why We use Web Server in FL
+## Why We use Web Server in FL
 
 # Using a Web Server in Federated Learning
 
@@ -46,32 +46,7 @@ Federated Learning (FL) is a machine learning approach where models are trained 
 - **Dashboard for Visualization**: Hosts a dashboard that provides a graphical user interface for visualizing the status and performance of the FL process.
 - **Alerts and Notifications**: Sends alerts and notifications in case of anomalies or significant events.
 
-## Example Code
-
-Here is an example of how you might set up a simple web server for monitoring federated learning processes using Python and Flask:
-
-```python
-from flask import Flask, request, jsonify
-
-app = Flask(__name__)
-
-# Store logs in a simple dictionary
-logs = {}
-
-@app.route('/log', methods=['POST'])
-def log_activity():
-    data = request.get_json()
-    device_id = data['device_id']
-    logs[device_id] = data
-    return jsonify({'status': 'success'})
-
-@app.route('/logs', methods=['GET'])
-def get_logs():
-    return jsonify(logs)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
-
+ 
 
 
 
